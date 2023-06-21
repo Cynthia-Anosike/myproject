@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+    </head>
+
+    <body>
+        <h1>Welcome to our auto mobile <i>dealership</i></h1>
+        <p>How to contact us</p>
+        <ul>
+            {% for posts in object_list %}
+            <li>{{ posts }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
