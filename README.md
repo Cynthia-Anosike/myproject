@@ -9,6 +9,16 @@ First, we prepare our server for django. I did a number of installations to setu
 
 >Step 2: I installed pip 22.0.2
 
->Step 3: I installed a virtual environment and installed django into my environment.
+>Step 3: I installed a virtual environment and installed django 4.2.1 into my environment.
 
->Step 4:
+>Step 4: I used Virtual Studio Code as my editor
+
+## Django Project
+
+Firstly, I activated my virtual environment 'source venv/bin/activate' and cd into my venv directory. Then I created my django project and app;
+>django-admin startproject demoproject
+
+>python3 manage.py startapp demoapp
+
+Let's review what each new pages app file does:
+
